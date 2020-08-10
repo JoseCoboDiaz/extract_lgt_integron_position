@@ -5,13 +5,13 @@ It is important that you also need R software installed, because a R-script will
 
 To run this scripts:
 
-ruby extract_lgt_position.rb waafle.txt
+<i>ruby extract_lgt_position.rb waafle.txt<i>
 
-ruby extract_integron_position.rb contigs.integrons
+<i>ruby extract_integron_position.rb contigs.integrons<i>
 
 where waafle.txt and contigs.integrons are output files from waafle and Integron_Finder pipelines.
 
 It will generate the following files:
 - lgt_positions.txt: coordenates of all LGT detected by waafle 
-- integrasa_position.txt: coordendates of all the integrasas detected by Integron_Finder
-- protintegron_position.txt: coordendates of all coding regions detected by Integron_Finder
+- integrasa_position.txt: coordenates of all the integrasas detected by Integron_Finder
+- protintegron_position.txt: coordenates of all coding regions detected by Integron_Finder
