@@ -4,7 +4,6 @@ A ruby script to extract lateral gene transfer events (LGT) position and integro
 To run this scripts:
 
     ruby extract_lgt_position.rb waafle.txt
-
     ruby extract_integron_position.rb contigs.integrons
 
 where waafle.txt and contigs.integrons are output files from waafle and Integron_Finder pipelines.
